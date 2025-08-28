@@ -42,7 +42,7 @@
         p,
         li {
             color: #00BFFF;
-            /* azul claro */
+        
             font-family: 'Silkscreen', sans-serif;
             font-size: 18px;
             line-height: 1.6;
@@ -87,11 +87,25 @@
     margin: 10px;
     padding: 10px 20px; 
     color: #00BFFF; 
-    background-color: #1E1E1E; 
+    background-color: #4B0082;
     border-radius: 10px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
     font-weight: bold;
 }
+
+
+.botao {
+    background-color: #4B0082;
+    color: #00BFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px; 
+    display: inline-block;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: bold;
+}
+
 
 
     </style>
@@ -104,10 +118,10 @@
     </h1>
     <img id="minhafoto" src="cadeira.jpg" alt="Foto de Jeywyson Leandro" width="220">
     <div style="text-align: center; margin-top: 15px;">
-        <a href="cadeira.jpg">Clique aqui para ver minha foto</a>
-    </div>
+        <a class="botao" href="cadeira.jpg" >Clique aqui para ver minha foto</a>
+</div>
     <br>
-    <!-- Índice com links internos -->
+   
     <h2 class="índice">Índice</h2>
     <ul>
         <li><a href="#sobre">Sobre mim</a></li>
@@ -133,9 +147,12 @@
         <section id="contato">
             <h2>Contato</h2>
             <ul>
-                <li><a href="https://www.linkedin.com/in/jeywyson-leandro-45a7a437b/" target="_blank">Meu LinkedIn</a>
-                </li>
-                <li><a href="https://github.com/jeywysonleandro" target="_blank">Meu GitHub</a></li>
+            
+<div style="text-align: center; margin-top: 20px;">
+    <a class="botao" href="https://www.linkedin.com/in/jeywyson-leandro-45a7a437b/" target="_blank">LinkedIn</a>
+    <a class="botao" href="https://github.com/jeywysonleandro" target="_blank">GitHub</a>
+</div>
+
             </ul>
             <hr>
         </section>
@@ -169,5 +186,4 @@
             <a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a>
         </section>
 </body>
-
 </html>
