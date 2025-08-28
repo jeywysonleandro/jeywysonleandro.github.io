@@ -1,79 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio-de-Jeywyson-Leandro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        .nome {
+            color: #4B0082;
+            text-align: center;
+            font-family: 'Press Start 2P', cursive;
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        .índice {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 30px
+        }
+
+        a {
+            color: #4B0082;
+            font-family: 'Silkscreen', sans-serif;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            list-style-position: inside;
+            color: aliceblue;
+        }
+
+        p,
+        li {
+            color: #00BFFF;
+            /* azul claro */
+            font-family: 'Silkscreen', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        #minhafoto {
+            display: block;
+            margin: 0 auto;
+            border-radius: 35%;
+            border: 4px solid #8A00C4;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        body {
+            background-color: #121212;
+        }
+
+        h2 {
+            color: #4B0082;
+            font-size: 30p;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            text-align: center;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        p {
+            color: #00BFFF;
+            line-height: 1.6;
+            font-size: 18px;
+            font-family: 'Silkscreen', sans-serif;
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>
+    <h1 class="nome">
         Jeywyson Leandro Pereira de Oliveira
     </h1>
-    <img src="cadeira.jpg" alt="Foto de Jeywyson Leandro" width="220">
+    <img id="minhafoto" src="cadeira.jpg" alt="Foto de Jeywyson Leandro" width="220">
+    <div style="text-align: center; margin-top: 15px;">
+        <a href="cadeira.jpg">Clique aqui para ver minha foto</a>
+    </div>
     <br>
- <!-- Índice com links internos -->
-    <h2>Índice</h2>
+    <!-- Índice com links internos -->
+    <h2 class="índice">Índice</h2>
     <ul>
         <li><a href="#sobre">Sobre mim</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#links">Links</a></li>
         <li><a href="#contato">Contato</a></li>
     </ul>
- <!-- Seção Sobre mim -->
+    <!-- Seção Sobre mim -->
     <section id="sobre">
-    <h2>
-        Sobre mim
-    </h2>
+        <h2>
+            Sobre mim
+        </h2>
 
-    <p>
-     Olá! Meu nome é <strong>Jeywyson Leandro</strong>, tenho <em>21 anos</em> e sou estudante de Ciência da Computação na <strong>UNIFAVIP Wyden</strong>. 
-     <br>
-     Moro em <strong>Caruaru-PE</strong>.  Estou explorando o universo da programação e, ao longo dessa jornada, adquirindo cada vez mais conhecimento.</p>
-     
- <!-- Seção Contato -->
-    <section id="contato">
-        <h2>Contato</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/jeywyson-leandro-45a7a437b/" target="_blank">Meu LinkedIn</a></li>
-            <li><a href="https://github.com/jeywysonleandro" target="_blank">Meu GitHub</a></li>
-        </ul>
-        <hr>
-    </section>
+        <p>
+            Olá! Meu nome é <strong>Jeywyson Leandro</strong>, tenho <em>21 anos</em> e sou estudante de Ciência da
+            Computação na <strong>UNIFAVIP Wyden</strong>.
+            <br>
+            Moro em <strong>Caruaru-PE</strong>. Estou explorando o universo da programação e, ao longo dessa jornada,
+            adquirindo cada vez mais conhecimento.
+        </p>
 
-     <ul>
-        <li>Ensino Médio Completo - SESI-Caruaru - Concluído em 2021</li>
-    <br>
-        <li>Graduação em Ciência da Computação - UNIFAVIP Wyden - Em andamento</li>
-        <br>
-        <li>Idiomas: Português (Nativo), Inglês (Básico)</li>
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jeywyson-leandro-45a7a437b/" target="_blank">Meu LinkedIn</a>
+                </li>
+                <li><a href="https://github.com/jeywysonleandro" target="_blank">Meu GitHub</a></li>
+            </ul>
+            <hr>
         </section>
 
-         <!-- Seção Habilidades -->
+        <ul>
+            <li>Ensino Médio Completo - SESI-Caruaru - Concluído em 2021</li>
+            <br>
+            <li>Graduação em Ciência da Computação - UNIFAVIP Wyden - Em andamento</li>
+            <br>
+            <li>Idiomas: Português (Nativo), Inglês (Básico)</li>
+    </section>
+
+    <!-- Seção Habilidades -->
     <section id="habilidades">
 
         <br>
         <hr>
-     </ul>
-    <h2>Habilidades</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C++</li>
         </ul>
-        <br>
-        <a href="cadeira.jpg">Clique aqui para ver minha foto</a>
-    </section>
-
- <!-- Seção Links Externos -->
-    <section id="links">
-
-        <br>
-    <h2> Link Externo</h2>
-        <p><ul> Site que acho interessante para o aprendizado:</ul></p>
-        <a href="https://developer.mozilla.org/pt-BR/" target="_blank"><ul> MDN Web Docs</ul></a>
-    </section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+        <section id="links">
+            <h2>Link Externo</h2>
+            <p>Site que acho interessante para o aprendizado:</p>
+            <a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a>
+        </section>
 </body>
+
 </html>
