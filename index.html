@@ -1,46 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio-de-Jeywyson-Leandro</title>
+    <title>Portfólio de Jeywyson Leandro</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 class="nome">
-        Jeywyson Leandro Pereira de Oliveira
-    </h1>
-    <img id="minhafoto" src="cadeira.jpg" alt="Foto de Jeywyson Leandro" width="220">
-    <div style="text-align: center; margin-top: 15px;">
-        <a class="botao" href="cadeira.jpg">Clique aqui para ver minha foto</a>
-    </div>
-    <br>
+    <header>
+        <h1 class="nome">Jeywyson Leandro Pereira de Oliveira</h1>
+        <img id="minhafoto" src="cadeira.jpg" alt="Foto de Jeywyson Leandro" width="220">
+        <div style="text-align:center; margin-top:15px;">
+            <a class="botao" href="cadeira.jpg" target="_blank">Clique aqui para ver minha foto</a>
+        </div>
+    </header>
 
-    <h2 class="índice">Índice</h2>
-    <ul>
-        <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#contato">Contato</a></li>
-    </ul>
+    <!-- Índice -->
+    <nav>
+        <div class="indice-container">
+            <a class="indice-btn" href="#sobre">Sobre mim</a>
+            <a class="indice-btn" href="#habilidades">Habilidades</a>
+            <a class="indice-btn" href="#projetos">Projetos</a>
+            <a class="indice-btn" href="#links">Links</a>
+            <a class="indice-btn" href="#contato">Contato</a>
+        </div>
+    </nav>
 
-    <!-- Seção Sobre mim -->
+    <!-- Sobre mim -->
     <section id="sobre">
         <h2>Sobre mim</h2>
         <p>
-            Olá! Meu nome é <strong>Jeywyson Leandro</strong>, tenho <em>21 anos</em> e sou estudante de Ciência da
-            Computação na <strong>UNIFAVIP Wyden</strong>.<br>
-            Moro em <strong>Caruaru-PE</strong>. Estou explorando o universo da programação e, ao longo dessa jornada,
-            adquirindo cada vez mais conhecimento.
+            Olá! Meu nome é <strong>Jeywyson Leandro</strong>, tenho <em>21 anos</em> e sou estudante de Ciência da Computação na <strong>UNIFAVIP Wyden</strong>.
+            <br>
+            Moro em <strong>Caruaru-PE</strong> e estou explorando o universo da programação, adquirindo cada vez mais conhecimento.
         </p>
+
         <ul>
             <li>Ensino Médio Completo - SESI-Caruaru - Concluído em 2021</li>
             <li>Graduação em Ciência da Computação - UNIFAVIP Wyden - Em andamento</li>
@@ -48,7 +52,7 @@
         </ul>
     </section>
 
-    <!-- Seção Habilidades -->
+    <!-- Habilidades -->
     <section id="habilidades">
         <h2>Habilidades</h2>
         <ul>
@@ -61,32 +65,32 @@
         </ul>
     </section>
 
-    <!-- Seção Projetos -->
+    <!-- Projetos -->
     <section id="projetos">
         <h2>Projetos</h2>
         <div class="projetos-container">
-            <div class="projeto">
+            <a class="projeto-card" href="https://jeywysonleandro.github.io/pokedex/" target="_blank">
                 <h3>Pokédex</h3>
-                <p>Uma Pokédex interativa usando HTML, CSS e JavaScript.</p>
-                <a href="https://jeywysonleandro.github.io/pokedex/" target="_blank" class="botao">Ver Projeto</a>
-            </div>
+                <p>Uma Pokédex interativa utilizando API Pokémon e JavaScript.</p>
+            </a>
         </div>
     </section>
 
-    <!-- Seção Links -->
+    <!-- Links externos -->
     <section id="links">
-        <h2>Link Externo</h2>
-        <p>Site que acho interessante para o aprendizado:</p>
-        <a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a>
+        <h2>Links</h2>
+        <p>Site que acho interessante para aprendizado:</p>
+        <a class="botao" href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a>
     </section>
 
-    <!-- Seção Contato -->
+    <!-- Contato -->
     <section id="contato">
         <h2>Contato</h2>
-        <div style="text-align: center; margin-top: 20px;">
+        <div style="text-align:center; margin-top:20px;">
             <a class="botao" href="https://www.linkedin.com/in/jeywyson-leandro-45a7a437b/" target="_blank">LinkedIn</a>
             <a class="botao" href="https://github.com/jeywysonleandro" target="_blank">GitHub</a>
         </div>
     </section>
+
 </body>
 </html>
